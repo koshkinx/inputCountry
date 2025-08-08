@@ -1,0 +1,49 @@
+body {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+.country-list {
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
+  scrollbar-color: white #222;
+  scrollbar-width: thin;
+  padding-bottom: 10px;
+  min-height: 300px;
+}
+
+.country-list::-webkit-scrollbar {
+  height: 10px;
+}
+
+.country-list::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.country-list::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+.country-column {
+  flex: 0 0 auto;
+}
+
+.country-item {
+  background: #333;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  min-width: 100px;
+}
+
+.letter {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
